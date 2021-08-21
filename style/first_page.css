@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h2{
+    color: red;
+}
+#container{
+    width: 100%;
+}
+#titulo{
+    position: relative;
+    bottom: -50%;
+    right: -35%;
+    color: white;
+}
+.lista_perfis{
+    
+}
+.escolha_perfis{
+
+}
