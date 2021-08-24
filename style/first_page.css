@@ -8,49 +8,68 @@ h2{
 #perfil_box{
     height: 25vw;
     position: absolute;
-    align-items: center;
-    justify-content:center;
     left: -40vw;
     top: 10vw;
     right: 0;
     bottom: 0;
     display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#titulo_box{
+    position: relative;
+    left: 15vw;
+    width: fit-content;   
+    
 }
 #titulo{
-    position: relative;
+    left: 23pt;
+    text-align: center;
+    font-size: 4vw;
     color: white;
-    left: 25vw
+    
 }
 
 .lista_perfis{
    height: 20vw;
-   width: 30vw;
+   width: min-content;
    top: -60vw;
    left: 0;
+   align-items: center;
+
 }
 .escolha_perfis{
-    display:flex;
+    display: flex;
     flex-direction: row;
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+    
+
 }
 .perfil_nome{
     position: relative;
+    text-align: center;
     top: -1vw;
-    left: 5vw;
+    left: 4vw;
 }
 .perfil{
     text-decoration: none;
+    list-style: none;
 }
 .avatar{
     justify-content: center;
+    width: fit-content;
   
 }
 .img_perfil{
-    margin: 15pt;
+    margin: 8pt;
     justify-content: center;
     height: 10vw;
     width: 10vw;
 }
 .link_perfil{
+    width:fit-content;
     color: grey;
     text-decoration: none;
 }
