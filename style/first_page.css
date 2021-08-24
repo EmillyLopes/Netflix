@@ -1,9 +1,14 @@
 body{
-    background-color: black; 
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(27, 27, 27));
+    background-size: 100vw 100vw;
+    background-repeat:no-repeat;
+
 }
 h2{
+   
     padding-left: 3vw;
     color: red;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 #perfil_box{
     height: 25vw;
@@ -20,23 +25,19 @@ h2{
     position: relative;
     left: 15vw;
     width: fit-content;   
-    
 }
 #titulo{
     left: 23pt;
     text-align: center;
     font-size: 4vw;
     color: white;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .lista_perfis{
-   height: 20vw;
-   width: min-content;
-   top: -60vw;
-   left: 0;
-   align-items: center;
-
+    
+    width: fit-content;
+    align-items: center;
 }
 .escolha_perfis{
     display: flex;
@@ -44,32 +45,47 @@ h2{
     width: fit-content;
     margin: auto;
     padding: auto;
-    
-
 }
 .perfil_nome{
-    position: relative;
-    text-align: center;
-    top: -1vw;
-    left: 4vw;
+    position: absolute;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    top: 11vw;
+    left: 3vw;
+    font-size: 1.5vw;
+    justify-content: center ;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+.avatar_box{
+    align-items: center;
+    align-self: center;
+    margin: 10pt;
+}    
 .perfil{
     text-decoration: none;
     list-style: none;
+    align-items: center;
 }
 .avatar{
+    position: relative;
     justify-content: center;
-    width: fit-content;
+    align-items: center;
+    width:fit-content;
   
 }
 .img_perfil{
-    margin: 8pt;
     justify-content: center;
     height: 10vw;
     width: 10vw;
+    border-radius: 5%;
 }
 .link_perfil{
-    width:fit-content;
     color: grey;
     text-decoration: none;
+}
+#botão{
+    position: relative;
+    align-items: center;
+    top: 2vw
 }
