@@ -1,0 +1,57 @@
+body{
+    background-color: black; 
+}
+h2{
+    padding-left: 3vw;
+    color: red;
+}
+#perfil_box{
+    height: 25vw;
+    position: absolute;
+    left: -40vw;
+    top: 10vw;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#titulo{
+    position: relative;
+    color: white;
+    left: 25vw
+}
+
+.lista_perfis{
+    position: absolute;
+    height: 20vw;
+    width: 30vw;
+    top: -60vw;
+    left: 0;
+}
+.escolha_perfis{
+    display:flex;
+    flex-direction: row;
+}
+.perfil_nome{
+    position: relative;
+    top: -1vw;
+    left: 5vw;
+}
+.perfil{
+    text-decoration: none;
+}
+.avatar{
+    justify-content: center;
+  
+}
+.img_perfil{
+    margin: 15pt;
+    justify-content: center;
+    height: 10vw;
+    width: 10vw;
+}
+.link_perfil{
+    color: grey;
+    text-decoration: none;
+}
