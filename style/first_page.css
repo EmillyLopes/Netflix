@@ -7,6 +7,8 @@ body{
 h2{
    
     padding-left: 3vw;
+    top: -2vw;
+    font-size: 24pt;
     color: red;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -14,7 +16,7 @@ h2{
     height: 25vw;
     position: absolute;
     left: -40vw;
-    top: 10vw;
+    top: 8vw;
     right: 0;
     bottom: 0;
     display: flex;
@@ -23,13 +25,14 @@ h2{
 }
 #titulo_box{
     position: relative;
-    left: 15vw;
+    left: 20vw;
+    top: -1vw;
     width: fit-content;   
 }
 #titulo{
     left: 23pt;
     text-align: center;
-    font-size: 4vw;
+    font-size: 3.5vw;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -51,8 +54,8 @@ h2{
     margin: 0;
     align-items: center;
     justify-content: center;
-    top: 11vw;
-    left: 3vw;
+    top: 10.5vw;
+    left: 2.75vw;
     font-size: 1.5vw;
     justify-content: center ;
     font-family: 'Roboto Condensed', sans-serif;
@@ -76,8 +79,8 @@ h2{
 }
 .img_perfil{
     justify-content: center;
-    height: 10vw;
-    width: 10vw;
+    height: 9.5vw;
+    width: 9.5vw;
     border-radius: 5%;
 }
 .link_perfil{
@@ -85,7 +88,14 @@ h2{
     text-decoration: none;
 }
 #botão{
-    position: relative;
+    height: 2.5vw;
+    width: 18vw;
+    position: absolute;
     align-items: center;
-    top: 2vw
+    top: 25vw;
+    left: 23vw;
+    background-color: transparent;
+    color: grey;
+    border-style: solid;
+    font-size: 18px;
 }
