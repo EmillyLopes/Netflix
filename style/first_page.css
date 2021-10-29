@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(107, 101, 101));
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(46, 45, 45));
     background-size: 100vw 100vw;
     background-repeat:no-repeat;
 
@@ -88,15 +88,15 @@ h2{
     text-decoration: none;
 }
 #botão{
-    height: 2.5vw;
-    width: 18vw;
+    height: 3.0vw;
+    width: 15vw;
     position: absolute;
     align-items: center;
     top: 25vw;
-    left: 24.5vw;
+    left: 23.0vw;
     background-color: transparent;
     color: grey;
     border-style: solid;
-    font-size: 1.5vw;
+    font-size: 1.20vw;
     
 }
